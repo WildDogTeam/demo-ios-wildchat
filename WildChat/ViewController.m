@@ -66,7 +66,7 @@
 #pragma mark - Text field handling
 
 // This method is called when the user enters text in the text field.
-// We add the chat message to our Firebase.
+// We add the chat message to our Wilddog.
 - (BOOL)textFieldShouldReturn:(UITextField*)aTextField
 {
     [aTextField resignFirstResponder];
