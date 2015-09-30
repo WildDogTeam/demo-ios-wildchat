@@ -20,7 +20,6 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 
 ## 相关文档
 
-* [demo-ios-wildchat](https://github.com/WildDogTeam/demo-ios-wildchat) Wildchat iOS 版本
 * [Wilddog 概览](https://z.wilddog.com/overview/guide)
 * [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
 * [iOS SDK 开发向导](https://z.wilddog.com/ios/guide/1)
