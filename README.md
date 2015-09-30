@@ -4,7 +4,9 @@ WildChat是一个使用WilddogSDK的简单的聊天通讯类APP,自定义视图
 以在试图控制器的viewDidLoad方法中设置通过设置  
 newMessagesOnTop = NO来逆序消息列表
 
-### 克隆 demo
+### 本地运行
+
+首先确认本机已经安装Xcode 运行环境，然后执行,模拟器或者真机：
 ```
 git clone git@github.com:WildDogTeam/demo-ios-wildchat.git
 cd  demo-ios-wildchat
