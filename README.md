@@ -1,8 +1,5 @@
 # demo-ios-wildchat — Wilddog 开源实时聊天应用
-WildChat是一个使用WilddogSDK的简单的聊天通讯类APP,自定义视图  
-来轻松添加消息到你的应用程序。默认情况下，新消息在上面，你可  
-以在试图控制器的viewDidLoad方法中设置通过设置  
-newMessagesOnTop = NO来逆序消息列表
+demo-ios-wildchat 是一个基于 Wilddog iOS SDK 实现的简单聊天通讯类 APP。
 
 ### 本地运行
 
