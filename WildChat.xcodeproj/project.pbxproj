@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		398E0BA21BB241940064FDB7 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA01BB241900064FDB7 /* Wilddog.framework */; };
 		398E0BA31BB241940064FDB7 /* Wilddog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA01BB241900064FDB7 /* Wilddog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39F727061C5A20F4003460F0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F727051C5A20F4003460F0 /* JavaScriptCore.framework */; };
+		39F727081C5A20F8003460F0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */; };
 		39F87E4C1B5F92C700E1689A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E4B1B5F92C700E1689A /* main.m */; };
 		39F87E4F1B5F92C700E1689A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E4E1B5F92C700E1689A /* AppDelegate.m */; };
 		39F87E521B5F92C700E1689A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E511B5F92C700E1689A /* ViewController.m */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		398E0BA01BB241900064FDB7 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		39F727051C5A20F4003460F0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		39F87E461B5F92C700E1689A /* WildChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F87E4A1B5F92C700E1689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F87E4B1B5F92C700E1689A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F727081C5A20F8003460F0 /* libsqlite3.0.tbd in Frameworks */,
+				39F727061C5A20F4003460F0 /* JavaScriptCore.framework in Frameworks */,
 				398E0BA21BB241940064FDB7 /* Wilddog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +87,8 @@
 		39F87E3D1B5F92C700E1689A = {
 			isa = PBXGroup;
 			children = (
+				39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */,
+				39F727051C5A20F4003460F0 /* JavaScriptCore.framework */,
 				39F87E481B5F92C700E1689A /* WildChat */,
 				39F87E621B5F92C700E1689A /* WildChatTests */,
 				39F87E471B5F92C700E1689A /* Products */,
