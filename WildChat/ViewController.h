@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Wilddog/Wilddog.h>
+#import "Wilddog.h"
 
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 

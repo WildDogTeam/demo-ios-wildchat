@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		398E0BA21BB241940064FDB7 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA01BB241900064FDB7 /* Wilddog.framework */; };
-		398E0BA31BB241940064FDB7 /* Wilddog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA01BB241900064FDB7 /* Wilddog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		39F727061C5A20F4003460F0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F727051C5A20F4003460F0 /* JavaScriptCore.framework */; };
-		39F727081C5A20F8003460F0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */; };
 		39F87E4C1B5F92C700E1689A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E4B1B5F92C700E1689A /* main.m */; };
 		39F87E4F1B5F92C700E1689A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E4E1B5F92C700E1689A /* AppDelegate.m */; };
 		39F87E521B5F92C700E1689A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E511B5F92C700E1689A /* ViewController.m */; };
@@ -18,6 +14,7 @@
 		39F87E571B5F92C700E1689A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F87E561B5F92C700E1689A /* Images.xcassets */; };
 		39F87E5A1B5F92C700E1689A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F87E581B5F92C700E1689A /* LaunchScreen.xib */; };
 		39F87E661B5F92C700E1689A /* WildChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F87E651B5F92C700E1689A /* WildChatTests.m */; };
+		F4E102EE95FA0C3638ECE2A6 /* libPods-WildChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 849E0BE74ED499C14C0A7863 /* libPods-WildChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				398E0BA31BB241940064FDB7 /* Wilddog.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,9 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		398E0BA01BB241900064FDB7 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
-		39F727051C5A20F4003460F0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		39F87E461B5F92C700E1689A /* WildChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F87E4A1B5F92C700E1689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F87E4B1B5F92C700E1689A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +54,9 @@
 		39F87E5F1B5F92C700E1689A /* WildChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F87E641B5F92C700E1689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F87E651B5F92C700E1689A /* WildChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildChatTests.m; sourceTree = "<group>"; };
+		45B316E64F9661779CF9AF9D /* Pods-WildChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildChat/Pods-WildChat.release.xcconfig"; sourceTree = "<group>"; };
+		849E0BE74ED499C14C0A7863 /* libPods-WildChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WildChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5353C710229F2084789737 /* Pods-WildChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildChat/Pods-WildChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F727081C5A20F8003460F0 /* libsqlite3.0.tbd in Frameworks */,
-				39F727061C5A20F4003460F0 /* JavaScriptCore.framework in Frameworks */,
-				398E0BA21BB241940064FDB7 /* Wilddog.framework in Frameworks */,
+				F4E102EE95FA0C3638ECE2A6 /* libPods-WildChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +81,11 @@
 		39F87E3D1B5F92C700E1689A = {
 			isa = PBXGroup;
 			children = (
-				39F727071C5A20F8003460F0 /* libsqlite3.0.tbd */,
-				39F727051C5A20F4003460F0 /* JavaScriptCore.framework */,
 				39F87E481B5F92C700E1689A /* WildChat */,
 				39F87E621B5F92C700E1689A /* WildChatTests */,
 				39F87E471B5F92C700E1689A /* Products */,
+				E4B17616731EDFAD0282A63F /* Pods */,
+				D9C0CBA5A3C22D43E92EB488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,9 +143,25 @@
 		39F87E6F1B5F991000E1689A /* Framwork */ = {
 			isa = PBXGroup;
 			children = (
-				398E0BA01BB241900064FDB7 /* Wilddog.framework */,
 			);
 			name = Framwork;
+			sourceTree = "<group>";
+		};
+		D9C0CBA5A3C22D43E92EB488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849E0BE74ED499C14C0A7863 /* libPods-WildChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B17616731EDFAD0282A63F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD5353C710229F2084789737 /* Pods-WildChat.debug.xcconfig */,
+				45B316E64F9661779CF9AF9D /* Pods-WildChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,11 +171,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F87E691B5F92C700E1689A /* Build configuration list for PBXNativeTarget "WildChat" */;
 			buildPhases = (
+				586F31AD2220A21C8A6B6E3D /* [CP] Check Pods Manifest.lock */,
 				39F87E421B5F92C700E1689A /* Sources */,
 				39F87E431B5F92C700E1689A /* Frameworks */,
 				39F87E441B5F92C700E1689A /* Resources */,
 				39F87EEB1B5FD6F000E1689A /* Embed Frameworks */,
 				EAF0799F1B675BD000E0B8B8 /* Run Script */,
+				CB701E113913998E5F757714 /* [CP] Embed Pods Frameworks */,
+				2F452A8A9F55AE0E28DD0DC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +266,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F452A8A9F55AE0E28DD0DC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildChat/Pods-WildChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586F31AD2220A21C8A6B6E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB701E113913998E5F757714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildChat/Pods-WildChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EAF0799F1B675BD000E0B8B8 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +460,7 @@
 		};
 		39F87E6A1B5F92C700E1689A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5353C710229F2084789737 /* Pods-WildChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -425,6 +484,7 @@
 		};
 		39F87E6B1B5F92C700E1689A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B316E64F9661779CF9AF9D /* Pods-WildChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
