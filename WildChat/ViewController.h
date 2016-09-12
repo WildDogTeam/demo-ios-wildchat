@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSString* name;
 @property (nonatomic, strong) NSMutableArray* chat;
-@property (nonatomic, strong) Wilddog* wilddog;
+@property (nonatomic, strong) WDGSyncReference* wilddog;
 
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;

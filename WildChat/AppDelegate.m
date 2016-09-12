@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "Wilddog.h"
+
+#define kWilddogUrl @"https://demochat.wilddogio.com"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //初始化 WDGApp
+    WDGOptions *option = [[WDGOptions alloc] initWithSyncURL:kWilddogUrl];
+    [WDGApp configureWithOptions:option];
     
     return YES;
 }

@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#define kWilddogUrl @"https://demochat.wilddogio.com/msg"
-
 @interface ViewController ()
 {
     CGRect _originFrame;
@@ -24,7 +22,7 @@
     
     self.chat = [[NSMutableArray alloc] init];
     
-    _wilddog = [[Wilddog alloc] initWithUrl:kWilddogUrl];
+    _wilddog = [[WDGSync sync] referenceWithPath:@"msg"];
     
     _originFrame = self.view.frame;
     
@@ -35,7 +33,7 @@
     
     __block BOOL initialAdds = YES;
     
-    [self.wilddog observeEventType:WEventTypeChildAdded withBlock:^(WDataSnapshot *snapshot) {
+    [self.wilddog observeEventType:WDGDataEventTypeChildAdded withBlock:^(WDGDataSnapshot *snapshot) {
         
         if (_newMessagesOnTop) {
             if (snapshot.value) {
@@ -51,7 +49,7 @@
         
     }];
     
-    [self.wilddog observeSingleEventOfType:WEventTypeValue withBlock:^(WDataSnapshot *snapshot) {
+    [self.wilddog observeSingleEventOfType:WDGDataEventTypeValue withBlock:^(WDGDataSnapshot *snapshot) {
         
         [self.tableView reloadData];
         initialAdds = NO;
